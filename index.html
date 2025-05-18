@@ -5,11 +5,22 @@
     <title>WebGL Stuff</title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/viewport.css">
+    <link rel="stylesheet" href="styles/ui.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="navbar">
+                <div class="tab" id="vertexShaderTab">shader.vert</div>
+                <div class="tab" id="fragmentShaderTab">shader.frag</div>
+            </div>
+
+        </aside>
+    </div>
+    
     <canvas class="viewport" id="mainViewport"></canvas>
 
     <script type="module" src="ui.js"></script>
